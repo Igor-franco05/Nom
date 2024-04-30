@@ -1,0 +1,52 @@
+*{
+    font-family: arial;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    align-items: center;
+    height: 100vh;
+    gap: 1rem;
+
+}
+
+.field {
+    width: 500px;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+label {
+    font-size: 0.9rem;
+}
+
+textarea {
+    width: 100%;
+    font-size:  1rem;
+    padding: .5rem;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.counter {
+    font-size: 0.8rem;
+    color: gray;
+}
+
+#toggle {
+    background-color: blue;
+    color: white;
+    font-size: 1.1rem;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+#toggle:hover{
+    background-color: rgb(9, 9, 129);
+}
